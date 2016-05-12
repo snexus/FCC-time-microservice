@@ -1,13 +1,12 @@
 # FCC timestamp microservice
 
-[![Join the chat at https://gitter.im/johnstonbl01/clementinejs](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/johnstonbl01/clementinejs?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
 
 ## General
 
 Based on Clementine.js boilerplate
 
 
-# Quick Start Guide
+## Quick Start Guide
 
 Visit http://timestampmsnexus.herokuapp.com/
 
@@ -19,8 +18,8 @@ Visit http://timestampmsnexus.herokuapp.com/
 3) If it does not contain a date or Unix timestamp, it returns null for those properties.
 
 ##Example Usage
-http://timestampmsnexus.herokuapp.com/December%2015,%202015
-http://timestampmsnexus.herokuapp.com/1450137600
+'http://timestampmsnexus.herokuapp.com/December%2015,%202015'
+'http://timestampmsnexus.herokuapp.com/1450137600'
 
 ##Example output
-{ "unix": 1450137600, "natural": "December 15, 2015" }
+'{ "unix": 1450137600, "natural": "December 15, 2015" }'
